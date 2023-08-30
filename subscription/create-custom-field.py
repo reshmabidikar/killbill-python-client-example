@@ -8,7 +8,7 @@ config.api_key['X-Killbill-ApiKey'] = api_key
 config.api_key['X-Killbill-ApiSecret'] =  api_secret
 
 subscriptionApi = killbill.api.SubscriptionApi()
-subscription_id = '33aa2952-cea2-4cad-900a-9731c1042e54'
+subscription_id = '9eb5e295-70a1-4c0c-9b3c-951c934f410b'
 body = CustomField(name='Test Custom Field', value='test_value')
 
 subscriptionApi.create_subscription_custom_fields(subscription_id,
